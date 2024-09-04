@@ -4,7 +4,7 @@
 /* Estiliza o corpo da página */
 body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-    background-color: rgba(70, 156, 182, 0.877); /* Fundo levemente opaco para melhor contraste com a imagem */
+    background-color: rgba(158, 168, 172, 0.877); /* Fundo levemente opaco para melhor contraste com a imagem */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
