@@ -17,7 +17,8 @@
     <main>
                 
         <section>
-            <input type="text" id="inputBusca" placeholder="Digite a sua busca sobre Games">
+            <input type="text" id="search_game" placeholder="Digite o nome do jogo ou informe (todos)">
+            
             <button type="button" onclick="pesquisarGames()">Pesquisar</button>
         </section>
 
@@ -25,41 +26,11 @@
             
             <div class="item-resultado">
            
-                <h2>
-                    <a href="#" target="_blank"> Super Mario Bros </a>
-                </h2>
-                
-                <p class="descricao-meta">
-                    É uma das franquias de jogos eletrônicos mais famosas e amadas de todos os tempos 
-                    criada pela Nintendo. A série gira em torno das aventuras de Mario, um encanador  
-                    italiano, e seu irmão Luigi, que são transportados para o Reino do Cogumelo, um mundo 
-                    mágico habitado por cogumelos falantes, plantas carnívoras e um vilão barbudo  
-                    chamado Bowser.
-                </p>
-                <a href="https://pt.wikipedia.org/wiki/Super_Mario_Bros." target="_blank">Super Mario Bros - Wiki</a>
-
+                 <ul id="lista-jogos"></ul>
+    
             </div>
 
-            <div class="item-resultado">
-                <h2>
-                    <a href="#" target="_blank"> Sonic the Hedgehog </a>
-                </h2>
-                <p class="descricao-meta">
-                    Aventure-se em alta velocidade com Sonic, o ouriço azul mais rápido do mundo, em sua jornada para derrotar o Dr. Eggman e salvar o mundo.
-                </p>
-                <a href="https://pt.wikipedia.org/wiki/Sonic_the_Hedgehog" target="_blank">Sonic the Hedgehog - Wiki</a>
-            </div>
             
-            <div class="item-resultado">
-                <h2>
-                    <a href="#" target="_blank"> Frogger </a>
-                </h2>
-                <p class="descricao-meta">
-                    Um clássico dos arcades! Ajude o sapo a cruzar a rua movimentada e um rio cheio de obstáculos para alcançar a segurança do outro lado.
-                </p>
-                <a href="https://pt.wikipedia.org/wiki/Frogger" target="_blank">Frogger - Wiki</a>
-            </div>
-
         </section>
 
     </main>
@@ -75,7 +46,10 @@
 
     </footer>
 
+    <script src="js/data_games.js"></script>
+    <script type="text/javascript" src="js/dados.js"></script>
     <script type="text/javascript" src="js/funcoes.js"></script>
+    
     
 </body>
 </html>

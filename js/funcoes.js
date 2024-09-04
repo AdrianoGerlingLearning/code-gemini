@@ -1,3 +1,3 @@
 function pesquisarGames() {
-    alert("Teste Pesquisar Games");
+    console.log(lista_games_old);
 }
