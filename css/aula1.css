@@ -12,6 +12,7 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
+    /*background-image: url('../img/games1.png');*/
 }
 
 /* Estiliza os títulos h1 */
@@ -99,19 +100,6 @@ section button:hover {
 .descricao-meta {
     color: #45474B; /* Cor do texto */
     margin: 0.5rem 0; /* Margem acima e abaixo */
-}
-
-.games-bg {
-    opacity: 0.27;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-}
-
-::placeholder {
-    color: rgb(21, 24, 197);
 }
 
 /* Estiliza o rodapé da página */
