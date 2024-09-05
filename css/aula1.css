@@ -75,12 +75,12 @@ section button:hover {
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: #FFFFFF; /* Cor de fundo dos itens */
+    background: #ffffff; /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
-    background-color: rgba(255, 255, 255, 0.8); /* Fundo levemente opaco para melhor contraste com a imagem */
+    background-color: rgba(255, 255, 255, 0.7); /* Fundo levemente opaco para melhor contraste com a imagem */
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */

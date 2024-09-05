@@ -26,16 +26,25 @@ lista_games.forEach(jogo => {
                     <p>${jogo.descricao}</p>
                     <a href="${jogo.link_game}" target="_blank">Mais informações</a>`;
     
-    li.style.display = 'none'
-
     listaJogos.appendChild(li);
+
+    li.style.display = 'none';
+
 });
 
 const buscaInput = document.getElementById('search_game');
 
+/*
 buscaInput.addEventListener('keyup', (event) => {
     
     const termoBusca = event.target.value.trim().toLowerCase();
+
+    montaResultado(termoBusca);
+
+});
+*/
+
+function montaResultado(termoBusca){
 
     if(termoBusca !== ''){
 
@@ -54,4 +63,14 @@ buscaInput.addEventListener('keyup', (event) => {
             li.style.display = 'none';
         });
     }
-});
+
+}
+
+function pesquisarGames() {
+    
+    const input = document.getElementById('search_game');
+    
+    const valorDoInput = input.value;
+
+    montaResultado(valorDoInput);
+}
