@@ -50,7 +50,7 @@ function montaResultado(termoBusca){
 
         lista_games.forEach(jogo => {
             const li = document.getElementById(jogo.nome); // Assumindo que você adicionou um ID único a cada li
-            if (jogo.nome.toLowerCase().includes(termoBusca) || "todos" == termoBusca) {
+            if (jogo.nome.toLowerCase().includes(termoBusca) || "todos" == termoBusca || jogo.descricao.toLowerCase().includes(termoBusca)) {
                 li.style.display = 'block';
             } else {
                 li.style.display = 'none';
